@@ -1145,23 +1145,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Manit IT\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Manit\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MyProject2020\\Angular\\learnAngular\\datingApp.api\\DatingApp.API.csproj",
+      "projectUniqueName": "C:\\MyProject\\DatingApp\\DatingApp.Api\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "E:\\MyProject2020\\Angular\\learnAngular\\datingApp.api\\DatingApp.API.csproj",
-      "packagesPath": "C:\\Users\\Manit IT\\.nuget\\packages\\",
-      "outputPath": "E:\\MyProject2020\\Angular\\learnAngular\\datingApp.api\\obj\\",
+      "projectPath": "C:\\MyProject\\DatingApp\\DatingApp.Api\\DatingApp.API.csproj",
+      "packagesPath": "C:\\Users\\Manit\\.nuget\\packages\\",
+      "outputPath": "C:\\MyProject\\DatingApp\\DatingApp.Api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Manit IT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Manit\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
