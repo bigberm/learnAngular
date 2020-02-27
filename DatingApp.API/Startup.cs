@@ -29,6 +29,8 @@ namespace DatingApp.API
         {
            services.AddDbContext<DataContext>(x=> x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
            services.AddControllers();
+           services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+           services.AddCors();
          
         }
 
@@ -45,7 +47,7 @@ namespace DatingApp.API
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

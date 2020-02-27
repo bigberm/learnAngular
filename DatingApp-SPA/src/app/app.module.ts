@@ -1,18 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {HttpClientModule} from '@angular/common/http';
+ 
 import { AppComponent } from './app.component';
-import { ValuComponent } from './valu/valu.component';
 import { ValueComponent } from './value/value.component';
 
 @NgModule({
    declarations: [
       AppComponent,
-      ValuComponent,
-      ValueComponent
+       ValueComponent
    ],
    imports: [
-      BrowserModule
+      BrowserModule,
+      HttpClientModule
    ],
    providers: [],
    bootstrap: [
